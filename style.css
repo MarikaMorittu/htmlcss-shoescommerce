@@ -1,0 +1,85 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+}
+/* Utilities */
+.container {
+  width: 900px;
+  margin: 30px auto;
+}
+
+.column {
+  width: calc(100% / 3);
+  margin: 0 -2px 30px;
+  display: inline-block;
+}
+
+/* Shoes */
+.shoes {
+  padding: 8px;
+  margin-bottom: 24px;
+  position: relative;
+}
+img {
+  position: relative;
+  width: 100%;
+}
+/* Hover */
+.img2 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.shoes:hover .img2 {
+  display: block;
+}
+/* style div dettagli*/
+.pi {
+  text-decoration: line-through;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+.dettagli {
+  margin: 12px 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.det {
+  margin: 4px;
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+.sconto {
+  background: red;
+}
+.eco {
+  background: #048001;
+}
+h5 {
+  display: inline-block;
+}
+.color {
+  color: red;
+}
+
+/* Heart */
+.heart {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #d2d2d2;
+  color: #7e7e7e;
+  padding: 8px 12px;
+  border-radius: 50%;
+  z-index: 1;
+}
